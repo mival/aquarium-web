@@ -21,6 +21,14 @@ input[type=range]::-webkit-slider-runnable-track {
 	background: green;
 }
 
+.yellow ::-webkit-slider-runnable-track {
+	background: yellow;
+}
+
+.white ::-webkit-slider-runnable-track {
+	border: 1px solid black;
+}
+
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: 1px solid black;
